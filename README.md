@@ -3,7 +3,7 @@
 - Typescript
 - Next JS
 - Material UI
-- PWA Support
+- PWA Ready
 - Prettier
 - Husky
 - Dynamic Import
