@@ -1,0 +1,7 @@
+node_modules
+.next
+yarn.lock
+.now
+out
+.nowignore
+.now

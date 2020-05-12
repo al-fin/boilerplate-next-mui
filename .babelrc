@@ -1,0 +1,27 @@
+{
+  "presets": [["next/babel"]],
+  "env": {
+    "test": {
+      "plugins": ["babel-plugin-dynamic-import-node"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@interfaces": "./src/interfaces",
+          "@contexts": "./src/contexts",
+          "@hooks": "./src/hooks",
+          "@helpers": "./src/helpers",
+          "@images": "./src/images",
+          "@fonts": "./src/fonts",
+          "@icons": "./src/icons",
+          "@components": "./src/components",
+          "@styles": "./src/styles"
+        }
+      }
+    ]
+  ]
+}
